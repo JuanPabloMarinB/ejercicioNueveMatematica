@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1afee875-48ec-47f8-9153-c346dea25409" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entidades/Matematica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entidades/Matematica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Servicios/MatematicasServicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servicios/MatematicasServicios.java" afterDir="false" />
-    </list>
+    <list default="true" id="1afee875-48ec-47f8-9153-c346dea25409" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,6 +32,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/ProgramacionEgg/cursoFullStack/POO",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>

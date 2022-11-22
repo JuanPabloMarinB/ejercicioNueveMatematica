@@ -26,13 +26,10 @@ public class MatematicasServicios {
     }
 
     public void numMayorNumMenor(Matematica m1){
-        if (m1.getNumUno() > m1.getNumDos()) {
-            m1.setNumMayor(m1.getNumUno());
-            m1.setNumMenor(m1.getNumDos());
-        } else {
-            m1.setNumMayor(m1.getNumDos());
-            m1.setNumMenor(m1.getNumUno());
-        }
+
+        m1.setNumMayor(Math.max(m1.getNumUno(), m1.getNumDos()));
+        m1.setNumMenor(Math.min(m1.getNumUno(), m1.getNumDos()));
+
     }
 
     public double devolverMayor(Matematica m1) {
@@ -58,9 +55,10 @@ public class MatematicasServicios {
     public double calcularRaiz(Matematica m1) {
 
         numMayorNumMenor(m1);
+        double absolutoUno =  Math.abs(m1.getNumMenor());
 
-        double raizCuadrada = Math.sqrt(m1.getNumMenor());
-        System.out.println("La raíz cuadrada de " + decimales.format(m1.getNumMenor()) + " es " + decimales.format(raizCuadrada));
+        double raizCuadrada = Math.sqrt(absolutoUno);
+        System.out.println("La raíz cuadrada de " + decimales.format(absolutoUno) + " es " + decimales.format(raizCuadrada));
 
         return raizCuadrada;
 
